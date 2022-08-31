@@ -1,0 +1,6 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
+build_from:
+  amd64: ghcr.io/hassio-addons/ubuntu-base:8.1.0
+codenotary:
+  base_image: codenotary@frenck.dev
+  signer: codenotary@frenck.dev

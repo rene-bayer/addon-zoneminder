@@ -1,0 +1,15 @@
+name: Zoneminder
+version: "0.0.1"
+slug: zoneminder
+description: Zoneminder docker installation
+url: "https://github.com/rene-bayer/addon-zoneminder/tree/main/zoneminder"
+arch:
+  - amd64
+init: false
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"
+image: "ghcr.io/rene-bayer/{arch}-addon-zoneminder"
