@@ -12,4 +12,4 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
-image: "ghcr.io/rene-bayer/{arch}-addon-zoneminder"
+#image: "ghcr.io/home-assistant/{arch}-addon-zoneminder"
